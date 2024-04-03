@@ -40,7 +40,7 @@
 	align-items: center;
 	padding: 20px;
 	z-index: 5;
-	background: url('../Images/course-bg.jpg');
+	background: url('./Images/course-bg.jpg');
 	transition: background 0.5s ease;
 /* 	animation: slide-in 1s linear forwards; */
 }
@@ -104,7 +104,7 @@ li{
 	justify-content: space-between;
 	align-content: center;
 	height: 125vh;
-	background: url('../Images/course-bg.jpg');
+	background: url('./Images/course-bg.jpg');
 }
 .text-container{
 	display: flex;
@@ -505,7 +505,7 @@ li{
 	gap: 30px;
 	margin-left: 100px;
 	margin-right: 100px;
-	background-image: url("../Images/cta-bg.png"); 
+	background-image: url("./Images/cta-bg.png"); 
 }
 #edit1{
 	border-radius: 7px;
@@ -627,7 +627,7 @@ li{
 	border-bottom: 2px solid var(--lightblue);
 }
 .main-bg{
-	background: url('../Images/newsletter-bg.jpg');
+	background: url('./Images/newsletter-bg.jpg');
 	height: 68vh;
 	padding: 120px 0;
 }
@@ -718,3 +718,4 @@ li{
 	font-weight: 600;
 	color: white;
 } 
+/* @media screen and (max-width: 720px){ */
