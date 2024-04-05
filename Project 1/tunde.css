@@ -443,7 +443,7 @@ li{
 	border: none;
 	background: #FFF5E8;
 	padding: 15px;
-	align-items: center;
+	align-items: center
 	justify-content: center;
 	display: flex;
 }
@@ -548,17 +548,21 @@ li{
 }
 .bx-right-arrow-alt{
 	color: var(--lightblue);
+	transition: all .5s ease;
+}
+.bx-right-arrow-alt:hover{
+	color: white;
 }
 .begin-3:hover{
 	background: #F76D02;
 	color: white;
 }
-.bx{
+/* .bx{
 	font-weight: 900;
 }
 .bx:hover{
 	color: white;
-}
+} */
 .event-com{
 	height: 123.4vh;
 	padding: 120px 0;
@@ -691,6 +695,10 @@ li{
 	font-weight: 400;
 	display: flex;
 	align-items: center;
+	transition: all .3s ease-in-out;
+}
+.lastags:hover{
+	color: #4146A5;
 }
 .bx-chevron-right{
 	color: white;
@@ -718,4 +726,3 @@ li{
 	font-weight: 600;
 	color: white;
 } 
-/* @media screen and (max-width: 720px){ */
